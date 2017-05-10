@@ -1,0 +1,685 @@
+﻿body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: lightgrey;
+}
+
+.navbar-inverse {
+    background-image: url("/images/plaid.jpg");
+    background-color: black;
+    border-color: black;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.smallFace {
+    border-radius: 15px;
+    margin-top: -14px;
+    padding-top: 0px;
+}
+
+.headercontainer {
+    background-image: url("/images/plaid.jpg");
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.connectlogos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.speech {
+    margin-top: 25px;
+    margin-right: 10px;
+    background-color: lightgrey;
+    height: 100px;
+    width: 285px;
+    border-radius: 25px;
+    padding: 20px;
+    position: relative;
+
+}
+
+.face {
+    margin-top: 70px;
+    max-height: 125px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.speech h3 {
+    padding-top: 0px;
+    margin-top: -10px;
+}
+
+i {
+    position: absolute;
+    right: 25px;
+    bottom: -23px;
+    margin-left: 50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 25px 0;
+    border-color: transparent #d3d3d3 transparent transparent;
+    display: flex;
+    align-self: center;
+}
+
+.opaque {
+    height: 200px;
+    width: 100%;
+    background-image: url("/images/plaid.jpg");
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.project {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 50px;
+    margin-left: 25px;
+    width: 95%;
+    height: 220px;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.reactpic {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0;
+    width: 100;
+    height: 35%;
+    position: relative;
+}
+
+.reacttext {
+    position: relative;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+    .reacttext h2 {
+        position: absolute;
+        font-size: 22px;
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    .reacttext h3 {
+        font-size: 12px;
+        margin-top: -10px;
+        margin-left: 150px;
+        color: darkgrey;
+    }
+
+    .reacttext h4 {
+        margin-left: 20px;
+        font-size: 14px;
+        color: grey;
+    }
+
+.keepreading {
+    margin-top: 30px;
+    margin-left: 90%;
+    height: 30px;
+    width: 110px;
+    background-color: dodgerblue;
+    background: linear-gradient(dodgerblue, black);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+    .keepreading h4 {
+        position: absolute;
+        white-space: nowrap;
+        max-width: 100%;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-left: 15px;
+        color: white;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+.container2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 95%;
+    height: 220px;
+    background-color: lightgrey;
+    margin-bottom: 50px;
+}
+
+.codepic {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0;
+    width: 100%;
+    height: 35%;
+    position: relative;
+}
+
+.fizzbuzz {
+    position: relative;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+    .fizzbuzz h2 {
+        position: absolute;
+        font-size: 22px;
+        margin-top: -010px
+    }
+
+    .fizzbuzz h3 {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 105px;
+        color: darkgrey;
+    }
+
+    .fizzbuzz h4 {
+        margin-top: 10px;
+        font-size: 14px;
+        color: grey;
+    }
+
+
+.keepreading2 {
+    margin-top: 45px;
+    margin-left: 87.75%;
+    height: 30px;
+    width: 110px;
+    background-color: dodgerblue;
+    background: linear-gradient(dodgerblue, black);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+    .keepreading2 h4 {
+        margin-top: 5px;
+        margin-left: 15px;
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        white-space: nowrap;
+        max-width: 100%;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+/*
+html {
+    text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font: 16px / 1 roboto, sans-serif;
+    background-color: black;
+    font-weight: bold;
+}
+
+header {
+    background-image: url("/images/water.jpg");
+    border: solid black;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.face {
+    margin-top: 70px;
+    max-height: 125px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.speech {
+    margin-top: 25px;
+    margin-right: 10px;
+    background-color: lightgrey;
+    height: 100px;
+    width: 285px;
+    border-radius: 25px;
+    padding: 20px;
+    position: relative;
+}
+
+i {
+    position: absolute;
+    right: 25px;
+    bottom: -23px;
+    margin-left: 50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 25px 0;
+    border-color: transparent #d3d3d3 transparent transparent;
+    display: flex;
+    align-self: center;
+}
+
+h1 {
+    margin-top: -3px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.opaque {
+    position: absolute;
+    width: 95%;
+    height: 160px;
+    background-color: black;
+
+    margin-top: 225px;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.project {
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 10;
+}
+
+img {
+    padding: 10px;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    font-size: 13px;
+}
+
+.container1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 95%;
+    height: 220px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.reactpic {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0;
+    width: 100;
+    height: 35%;
+    position: relative;
+}
+
+.reacttext {
+    position: relative;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+    .reacttext h2 {
+        position: absolute;
+        font-size: 22px;
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    .reacttext h3 {
+        font-size: 12px;
+        margin-top: -10px;
+        margin-left: 150px;
+        color: darkgrey;
+    }
+
+    .reacttext h4 {
+        margin-left: 20px;
+        font-size: 14px;
+        color: grey;
+    }
+
+.keepreading {
+    margin-top: 30px;
+    margin-left: 90%;
+    height: 30px;
+    width: 110px;
+    background-color: dodgerblue;
+    background: linear-gradient(dodgerblue, black);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+    .keepreading h4 {
+        position: absolute;
+        white-space: nowrap;
+        max-width: 100%;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-left: 15px;
+        color: white;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+.container2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 95%;
+    height: 220px;
+    background-color: white;
+}
+
+.codepic {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0;
+    width: 100%;
+    height: 35%;
+    position: relative;
+}
+
+.fizzbuzz {
+    position: relative;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+    .fizzbuzz h2 {
+        position: absolute;
+        font-size: 22px;
+        margin-top: -010px
+    }
+
+    .fizzbuzz h3 {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 105px;
+        color: darkgrey;
+    }
+
+    .fizzbuzz h4 {
+        margin-top: 10px;
+        font-size: 14px;
+        color: grey;
+    }
+
+
+.keepreading2 {
+    margin-top: 45px;
+    margin-left: 87.75%;
+    height: 30px;
+    width: 110px;
+    background-color: dodgerblue;
+    background: linear-gradient(dodgerblue, black);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+    .keepreading2 h4 {
+        margin-top: 5px;
+        margin-left: 15px;
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        white-space: nowrap;
+        max-width: 100%;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+.connect {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    .connect h1 {
+        color: white;
+    }
+
+.connectlogos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    .connectlogos img {
+        height: 75px;
+    }
+
+.copyright {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h6 {
+    color: darkgrey;
+}
+
+@media (max-width: 1025px) {
+    .keepreading {
+        margin-top: 30px;
+    }
+
+    .keepreading2 {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 936px) {
+    .opaque {
+        height: 318px;
+    }
+
+    header {
+        height: 550px;
+    }
+}
+
+@media (max-width: 769px) {
+    .opaque {
+        height: 323px;
+    }
+
+    header {
+        height: 565px;
+    }
+
+    .keepreading {
+        margin-top: 10px;
+    }
+
+    .keepreading2 {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    h1 {
+        font-size: 90%;
+    }
+
+    p {
+        font-size: 60%;
+    }
+
+    .project {
+        display: flex;
+        flex-flow: wrap;
+    }
+
+        .project img {
+            height: 100px;
+        }
+
+    header {
+        height: 480px;
+    }
+
+    .opaque {
+        height: 240px;
+    }
+
+    .container1 {
+        width: 90%;
+    }
+
+    .container2 {
+        width: 90%
+    }
+
+    .reacttext h4 {
+        font-size: 70%;
+    }
+
+    .fizzbuzz h4 {
+        font-size: 70%;
+    }
+
+    .keepreading {
+        margin-top: -5px;
+        margin-left: 50%;
+    }
+
+    .keepreading2 {
+        margin-top: 25px;
+        margin-left: 45%;
+    }
+}
+
+@media (max-width: 376px) {
+    h1 {
+        font-size: 100%;
+    }
+
+    p {
+        font-size: 65%;
+    }
+
+    .keepreading {
+        margin-top: -0px;
+    }
+
+    .keepreading2 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 321px) {
+    header {
+        height: 725px;
+    }
+
+    .opaque {
+        height: 485px;
+    }
+
+    .keepreading {
+        margin-top: -10px;
+    }
+}
+*/
