@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model portfolio4.Models.Project;
 
 
 <html>
@@ -13,17 +14,17 @@
 </head>
 <body>
     <header>
-        <div class="headercontainer">
-            <img class="face" src="/Images/face.jpg" height="200">
-            <div class="speech">
-                <h3>Hi, I'm Jeff Longo!</h3>
-                <p>I'm a Jr. DotNet Developer in St. Petersburg, FL.</p>
-                <i></i>
-            </div>
-        </div>
 
-        <p></p>
         <div class="opaque">
+            <div class="speech1">
+                <h2>Jeff Longo</h2>
+                <ul>
+                    <li>DotNet Development</li>
+                    <li>Web Development</li>
+                    <li>Software Development</li>
+                    <li>Game Development</li>
+                </ul>
+            </div>
             <div class="carouselMover">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Carousel indicators -->
@@ -32,20 +33,28 @@
                         <li data-target="#myCarousel" data-slide-to="1"></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                         <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
                     </ol>
                     <!-- Wrapper for carousel items -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="/images/sliced images/one-list.png" alt="First Slide">
+                            <a href="http://octodex.jefflongo.surge.sh/">
+                                <img src="images/octodex.png" alt="First Slide" width="550">
+                            </a>
                         </div>
                         <div class="item">
-                            <img src="/images/sliced images/bomb-sniffer.png" alt="Second Slide">
+                            <a href="">
+                            <img src="images/port.png" alt="Second Slide" width="550">
+                            </a>
                         </div>
                         <div class="item">
-                            <img src="/images/sliced images/sensei-sense.png" alt="Third Slide">
+                            <img src="images/stack.png" alt="Third Slide" width="550">
                         </div>
                         <div class="item">
-                            <img src="/images/sliced images/make-it-rain.png" alt="Fourth Slide" />
+                            <img src="images/reddit.png" alt="Fourth Slide" width="550" />
+                        </div>
+                        <div class="item">
+                            <img src="images/rollaball.jpg" alt="Fifth Slide" width="550"/>
                         </div>
                     </div>
                     <!-- Carousel controls -->
@@ -57,16 +66,7 @@
                     </a>
                 </div>
             </div>
-            <div class="container2">
-                <img class="reactpic" src="/images/react.png" width="100%">
-                <div class="reacttext">
-                    <h2>Hello, React.</h2> <h3>December 6th, 2017</h3>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ut, consequuntur. Delectus ullam voluptate iste ducimus amet explicabo, quasi enim vero doloremque obcaecati deleniti non harum, animi tenetur. Tempora, consequatur!</h4>
-                    <div class="keepreading">
-                        <h4>Keep Reading</h4>
-                    </div>
-                </div>
-            </div>
+            <img class="face1" src="/Images/face.jpg">
         </div>
 
     </header>
