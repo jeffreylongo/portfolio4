@@ -77,3 +77,4 @@ C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\EntityFramework.xm
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\EntityFramework.SqlServer.xml
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.Migrations.firstie.resources
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.csproj.GenerateResource.Cache
+C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.Migrations.secondie.resources

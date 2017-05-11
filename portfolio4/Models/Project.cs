@@ -11,5 +11,6 @@ namespace portfolio4.Models
         public string Name { get; set; }
         public string gitUrl { get; set; }
         public string liveUrl { get; set; }
+        public string projectImage { get; set; }
     }
 }

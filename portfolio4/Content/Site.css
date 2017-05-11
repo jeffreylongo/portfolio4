@@ -155,6 +155,43 @@ i {
     width: 250px;
     border-radius: 20px;
     background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo {
+    margin-left: 20px;
+    padding-top: -20px;
+}
+
+.list {
+    margin-left: 25px;
+}
+
+.containerContainer2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
+
+.projectContainer {
+    margin: 10px;
+    background-image: url("/images/plaid.jpg");
+    border-radius: 20px;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    margin: 10px;
+
 }
 
 h2 {

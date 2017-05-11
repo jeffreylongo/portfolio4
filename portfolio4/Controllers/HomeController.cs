@@ -13,9 +13,9 @@ namespace portfolio4.Controllers
     {
         private ProjectContext db = new ProjectContext();
 
-        public ActionResult Index(int? id)
+        public ActionResult Index()
         {
-            Project project = db.Projects.Find(id);
+            var project = db.Projects;
             return View(project);
         }
 
