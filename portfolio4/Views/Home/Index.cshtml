@@ -35,6 +35,8 @@
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                         <li data-target="#myCarousel" data-slide-to="3"></li>
                         <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
                     </ol>
                     <!-- Wrapper for carousel items -->
                     <div class="carousel-inner">
@@ -63,6 +65,16 @@
                                 <img src="/images/rollaball.jpg" alt="Fifth Slide" width="550" />
                             </a>
                         </div>
+                        <div class="item">
+                            <a href="https://github.com/jeffreylongo/tiyMovieRental">
+                                <img src="/images/movie.png" alt="Sixth Slide" width="550" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="https://github.com/jeffreylongo/bootStrap">
+                                <img src="/images/sports.png" alt="Sixth Slide" width="550" />
+                            </a>
+                        </div>
                     </div>
                     <!-- Carousel controls -->
                     <a class="carousel-control left" href="#myCarousel" data-slide="prev">
@@ -83,8 +95,10 @@
         {
             <div class="projectContainer">
                 <div class="projects">
+                    <a href="@project.projectImage" id="pop">
+                        <img id="imageresource" src="@project.projectImage" alt="@project.Name" height="75" width="100">
+                    </a>
                     <a href="@project.gitUrl">
-                        <img src="@project.projectImage" alt="@project.Name" height="100" width="100">
                         <h5>@project.Name</h5>
                     </a>
                     @if (project.liveUrl == null)

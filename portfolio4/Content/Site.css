@@ -132,6 +132,7 @@ i {
     margin-bottom: 15px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -183,10 +184,19 @@ i {
     margin: 10px;
     background-image: url("/images/plaid.jpg");
     border-radius: 20px;
-    height: 180px;
+    height: 150px;
     width: 180px;
     display: flex;
     justify-content: center;
+}
+
+a {
+    color: lightgrey;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
 }
 
 .projects {
