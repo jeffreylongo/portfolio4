@@ -159,15 +159,55 @@ i {
     flex-wrap: wrap;
 }
 
+@media (max-width: 1024px) {
+    .opaque {
+        height: 680px;
+
+    }
+}
+
+@media (max-width: 769px) {
+    .opaque {
+        height: 1050px;
+        align-content: flex-start;
+    }
+
+    .face1 {
+        padding-top: 0px;
+    }
+
+    .faceMover {
+        margin-top: 170px;
+    }
+
+    .finalProject {
+        align-content: center;
+        margin-top: 20px;
+
+    }
+    .corgiPic {
+        margin-top: 220px;
+    }
+
+}
+
+@media (max-width: 415px) {
+    .finalProject {
+        height: px;
+    }
+}
+
 .finalProject {
     display: flex;
     justify-content: space-around;
     align-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
+
 .corgiWords {
-    margin-top: -70px;
+    margin-top: 0px;
     width: 500px;
 }
 
