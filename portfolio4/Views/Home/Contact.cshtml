@@ -1,17 +1,18 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<div class="connect2">
+    <div>
+        <h1>Connect with me!</h1>
+    </div>
+    <div class="connectlogos2">
+        <a href="https://twitter.com/JeffsTechJobs"><img src="/images/twitterlogo.png" alt="Twitter" height="50"></a>
+        <a href=@Html.Raw("https://medium.com/@jefflongo")> <img src="/images/mediumlogo.png" alt="Medium Blog" height="50"></a>
+        <a href="https://www.linkedin.com/in/jeffplongo"> <img src="/images/linkedinlogo.png" alt="LinkedIn" height="50"></a>
+    </div>
+    <div>
+        <strong>Email:</strong>   <a href="jeffreylongo@knights.ucf.edu">JeffreyLongo@Knights.UCF.edu</a><br />
+    </div>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+</div>

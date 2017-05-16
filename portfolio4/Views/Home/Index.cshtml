@@ -18,13 +18,25 @@
 
         <div class="opaque">
             <div class="speech1">
-                <img class="logo" src="/images/logo.png" alt="Logo" width="200"/>
-                <ul class="list">
-                    <li>DotNet Development</li>
-                    <li>Web Development</li>
-                    <li>Software Development</li>
-                    <li>Game Development</li>
-                </ul>
+                <div class="words">
+                    <div>
+                        DotNet Development
+                    </div>
+                    <div>
+                        Web Development
+                    </div>
+                    <div>
+                        Software Development
+                    </div>
+                    <div>
+                        Game Development
+                    </div>
+                    <div>
+                        Squirrels
+                    </div>
+
+                </div>
+
             </div>
             <div class="carouselMover">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -37,6 +49,7 @@
                         <li data-target="#myCarousel" data-slide-to="4"></li>
                         <li data-target="#myCarousel" data-slide-to="5"></li>
                         <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
                     </ol>
                     <!-- Wrapper for carousel items -->
                     <div class="carousel-inner">
@@ -75,6 +88,11 @@
                                 <img src="/images/sports.png" alt="Sixth Slide" width="550" />
                             </a>
                         </div>
+                        <div class="item">
+                            <a href="https://github.com/jeffreylongo/corgi">
+                                <img src="/images/corgi.png" alt="Seventh Slide" width="550" />
+                            </a>
+                        </div>
                     </div>
                     <!-- Carousel controls -->
                     <a class="carousel-control left" href="#myCarousel" data-slide="prev">
@@ -87,8 +105,21 @@
             </div>
             <img class="face1" src="/Images/face.jpg">
         </div>
-
     </header>
+
+    <div class="finalProject">
+        <div class="corgiPic">
+            <a href="http://www.corginews.com">
+                <img src="/Images/corgi.png" alt="Corgi" height="200" />
+            </a>
+        </div>
+        <div class="corgiWords">
+            <a href="http://www.corginews.com"><h2>Corgi</h2></a>
+            <h4>Corgi is an aggregated news site concept I am working on. The goal of Corgi is to essentially herd similar news stories
+            from multiple sources in order to provide it's users with a variety of viewpoints on the same story in order to come to an 
+            educated conclusion on their own, ultimately creating a well-rounded, less polarized audience.</h4>
+        </div>
+    </div>
 
     <div class="containerContainer2">
         @foreach (var project in Model)
@@ -96,7 +127,7 @@
             <div class="projectContainer">
                 <div class="projects">
                     <a href="@project.projectImage" id="pop">
-                        <img id="imageresource" src="@project.projectImage" alt="@project.Name" height="75" width="100">
+                        <img id="imageresource" src="@project.projectImage" alt="@project.Name" height="130" width="175">
                     </a>
                     <a href="@project.gitUrl">
                         <h5>@project.Name</h5>
@@ -123,7 +154,7 @@
         <a href="https://www.linkedin.com/in/jeffplongo"> <img src="/images/linkedinlogo.png" alt="LinkedIn" height="50"></a>
     </div>
 
-    
+
 
 
 

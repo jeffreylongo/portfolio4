@@ -10,7 +10,7 @@ namespace portfolio4.DataContext
 {
     public class ProjectContext :DbContext
     {
-        public ProjectContext():base()
+        public ProjectContext():base("name=DefaultConnection")
         {
 
         }

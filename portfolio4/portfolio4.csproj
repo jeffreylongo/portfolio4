@@ -181,11 +181,61 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\aquarium.PNG" />
+    <Content Include="Images\banner1.svg" />
+    <Content Include="Images\banner2.svg" />
+    <Content Include="Images\banner3.svg" />
+    <Content Include="Images\banner4.svg" />
+    <Content Include="Images\blackJack.PNG" />
+    <Content Include="Images\bomb-sniffer.png" />
+    <Content Include="Images\calculator.PNG" />
+    <Content Include="Images\code.png" />
+    <Content Include="Images\corgi.PNG" />
+    <Content Include="Images\designCo.PNG" />
+    <Content Include="Images\events.PNG" />
+    <Content Include="Images\face.jpg" />
+    <Content Include="Images\face2.jpg" />
+    <Content Include="Images\gift.PNG" />
+    <Content Include="Images\helloWorld.PNG" />
+    <Content Include="Images\hpr.PNG" />
+    <Content Include="Images\library.PNG" />
+    <Content Include="Images\library2.PNG" />
+    <Content Include="Images\linkedinlogo.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\make-it-rain.png" />
+    <Content Include="Images\marbles.PNG" />
+    <Content Include="Images\mediumlogo.png" />
+    <Content Include="Images\morse.PNG" />
+    <Content Include="Images\movie.PNG" />
+    <Content Include="Images\nebula.jpg" />
+    <Content Include="Images\numberGame.PNG" />
+    <Content Include="Images\numberGame2.PNG" />
+    <Content Include="Images\octodex.PNG" />
+    <Content Include="Images\one-list.png" />
+    <Content Include="Images\plaid.jpg" />
+    <Content Include="Images\port.PNG" />
+    <Content Include="Images\react.png" />
+    <Content Include="Images\reddit.PNG" />
+    <Content Include="Images\rollaball.JPG" />
+    <Content Include="Images\sensei-sense.png" />
+    <Content Include="Images\shr.PNG" />
+    <Content Include="Images\space.png" />
+    <Content Include="Images\sports.PNG" />
+    <Content Include="Images\stack.PNG" />
+    <Content Include="Images\town.PNG" />
+    <Content Include="Images\tri.png" />
+    <Content Include="Images\twitterlogo.png" />
+    <Content Include="Images\variables.PNG" />
+    <Content Include="Images\water.html" />
+    <Content Include="Images\water.jpg" />
+    <Content Include="Images\weatherMan.PNG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\portfolio1 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\portfolio1 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -215,7 +265,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
