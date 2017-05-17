@@ -159,43 +159,6 @@ i {
     flex-wrap: wrap;
 }
 
-@media (max-width: 1024px) {
-    .opaque {
-        height: 680px;
-
-    }
-}
-
-@media (max-width: 769px) {
-    .opaque {
-        height: 1050px;
-        align-content: flex-start;
-    }
-
-    .face1 {
-        padding-top: 0px;
-    }
-
-    .faceMover {
-        margin-top: 170px;
-    }
-
-    .finalProject {
-        align-content: center;
-        margin-top: 20px;
-
-    }
-    .corgiPic {
-        margin-top: 220px;
-    }
-
-}
-
-@media (max-width: 415px) {
-    .finalProject {
-        height: px;
-    }
-}
 
 .finalProject {
     display: flex;
@@ -230,6 +193,46 @@ i {
     padding-top: 40px;
     height: 200px;
 
+}
+
+@media (max-width: 1024px) {
+    .opaque {
+        height: 680px;
+
+    }
+}
+
+@media (max-width: 769px) {
+    .opaque {
+        height: 1050px;
+        align-content: flex-start;
+    }
+
+    .face1 {
+        padding-top: 0px;
+    }
+
+    .faceMover {
+        margin-top: 170px;
+    }
+
+    .finalProject {
+        position: relative;
+        justify-content: center;
+        margin-top: 20px;
+        overflow: hidden;
+        height: 500px !important;
+    }
+    .corgiPic {
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 415px) {
+    .finalProject {
+        height: px;
+    }
 }
 
 .face1 {
@@ -287,6 +290,7 @@ i {
     margin: 0;
 }
 
+
 .projectContainer {
     margin: 10px;
     background-image: url("/images/plaid.jpg");
@@ -296,6 +300,7 @@ i {
     display: flex;
     justify-content: center;
 }
+
 
 a {
     color: lightgrey;
