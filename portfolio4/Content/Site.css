@@ -81,6 +81,7 @@ textarea {
 .connectlogos {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 50px;
 }
 
@@ -170,7 +171,7 @@ i {
 
 
 .corgiWords {
-    margin-top: 0px;
+    margin-top: -60px;
     width: 500px;
 }
 
