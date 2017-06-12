@@ -175,30 +175,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="aquarium.PNG" />
-    <Content Include="banner1.svg" />
-    <Content Include="banner2.svg" />
-    <Content Include="banner3.svg" />
-    <Content Include="banner4.svg" />
-    <Content Include="blackJack.PNG" />
-    <Content Include="bomb-sniffer.png" />
-    <Content Include="calculator.PNG" />
-    <Content Include="code.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="corgi.PNG" />
-    <Content Include="designCo.PNG" />
-    <Content Include="events.PNG" />
-    <Content Include="face.jpg" />
-    <Content Include="face2.jpg" />
-    <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="gift.PNG" />
-    <Content Include="githubLogo.png" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="helloWorld.PNG" />
-    <Content Include="hpr.PNG" />
     <Content Include="Images\aquarium.PNG" />
     <Content Include="Images\banner1.svg" />
     <Content Include="Images\banner2.svg" />
@@ -214,6 +195,7 @@
     <Content Include="Images\face.jpg" />
     <Content Include="Images\face2.jpg" />
     <Content Include="Images\gift.PNG" />
+    <Content Include="Images\githubLogo.png" />
     <Content Include="Images\helloWorld.PNG" />
     <Content Include="Images\hpr.PNG" />
     <Content Include="Images\library.PNG" />
@@ -247,25 +229,6 @@
     <Content Include="Images\water.html" />
     <Content Include="Images\water.jpg" />
     <Content Include="Images\weatherMan.PNG" />
-    <Content Include="library.PNG" />
-    <Content Include="library2.PNG" />
-    <Content Include="linkedinlogo.png" />
-    <Content Include="logo.png" />
-    <Content Include="make-it-rain.png" />
-    <Content Include="marbles.PNG" />
-    <Content Include="mediumlogo.png" />
-    <Content Include="morse.PNG" />
-    <Content Include="movie.PNG" />
-    <Content Include="nebula.jpg" />
-    <Content Include="numberGame.PNG" />
-    <Content Include="numberGame2.PNG" />
-    <Content Include="octodex.PNG" />
-    <Content Include="one-list.png" />
-    <Content Include="plaid.jpg" />
-    <Content Include="port.PNG" />
-    <Content Include="react.png" />
-    <Content Include="reddit.PNG" />
-    <Content Include="rollaball.JPG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -285,18 +248,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="sensei-sense.png" />
-    <Content Include="shr.PNG" />
-    <Content Include="space.png" />
-    <Content Include="sports.PNG" />
-    <Content Include="stack.PNG" />
-    <Content Include="town.PNG" />
-    <Content Include="tri.png" />
-    <Content Include="twitterlogo.png" />
-    <Content Include="variables.PNG" />
     <Content Include="water.html" />
-    <Content Include="water.jpg" />
-    <Content Include="weatherMan.PNG" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
