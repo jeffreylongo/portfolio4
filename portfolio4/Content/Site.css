@@ -117,7 +117,7 @@ textarea {
 .connectlogos2 {
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    flex-wrap: wrap;
 }
 
 .connect2 h1 {
