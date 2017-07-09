@@ -29,6 +29,8 @@ C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\portfolio4.dll.con
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\portfolio4.dll
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\portfolio4.pdb
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\Antlr3.Runtime.dll
+C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\EntityFramework.dll
+C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\EntityFramework.SqlServer.dll
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -50,6 +52,8 @@ C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\System.Web.WebPage
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\System.Web.WebPages.dll
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\System.Web.WebPages.Razor.dll
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\WebGrease.dll
+C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\EntityFramework.xml
+C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\EntityFramework.SqlServer.xml
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\System.Web.Helpers.xml
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\System.Web.Mvc.xml
@@ -68,13 +72,8 @@ C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\Microsoft.AI.Depen
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\Microsoft.AI.Web.xml
-C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.csprojResolveAssemblyReference.cache
+C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.Migrations.firstie.resources
+C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.Migrations.secondie.resources
+C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.csproj.GenerateResource.Cache
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.dll
 C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.pdb
-C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\EntityFramework.dll
-C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\EntityFramework.SqlServer.dll
-C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\EntityFramework.xml
-C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\bin\EntityFramework.SqlServer.xml
-C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.Migrations.firstie.resources
-C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.csproj.GenerateResource.Cache
-C:\Users\jefflongo\tiy\week-9\day-2\portfolio4\portfolio4\obj\Debug\portfolio4.Migrations.secondie.resources
